@@ -26,6 +26,7 @@ setup(
         'console_scripts': ['talker = my_beginner_pkg.publisher:main',
                             'listener = my_beginner_pkg.subscriber:main',
                             'service_server = my_beginner_pkg.service_server:main',
+                            'turtle_teleop = my_beginner_pkg.turtle_teleop:main',
         ],
     },
 )
